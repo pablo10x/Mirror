@@ -14,7 +14,7 @@ public class Room : NetworkRoomManager
 
     public override void Start()
     {
-        //base.Start();
+        base.Start();
         _manager.StartHost();
     }
 
@@ -35,5 +35,17 @@ public class Room : NetworkRoomManager
         base.OnRoomClientConnect(conn);
         conn.isReady = true;
         Debug.Log(conn.address);
+    }
+
+    public override void OnRoomServerPlayersNotReady()
+    {
+        base.OnRoomServerPlayersNotReady();
+        Debug.Log("not ready");
+    }
+
+    public override void OnRoomServerPlayersReady()
+    {
+        base.OnRoomServerPlayersReady();
+        Debug.Log("ready");
     }
 }
