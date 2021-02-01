@@ -17,9 +17,9 @@ namespace Mirror.Examples.Tanks
         public GameObject projectilePrefab;
         public Transform projectileMount;
 
-        void Update()
+        void Update() 
         {
-            // movement for local player
+            // movement for local player sd
             if (!isLocalPlayer) return;
 
             // rotate
