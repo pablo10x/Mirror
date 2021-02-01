@@ -27,8 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Weaver", "Mirror.Wea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Editor", "Mirror.Editor.csproj", "{60369f40-4027-e63a-fe8f-e72f623a1101}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{d335aaf8-6dd7-a419-5302-f5f27d6cf189}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.CompilerSymbols", "Mirror.CompilerSymbols.csproj", "{a95ff4c0-5c7e-7062-4eea-3fcbec1192c3}"
 EndProject
 Global
@@ -62,8 +60,6 @@ Global
 		{280edd7f-e17c-48db-02d1-e61e1596e946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60369f40-4027-e63a-fe8f-e72f623a1101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60369f40-4027-e63a-fe8f-e72f623a1101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{d335aaf8-6dd7-a419-5302-f5f27d6cf189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{d335aaf8-6dd7-a419-5302-f5f27d6cf189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a95ff4c0-5c7e-7062-4eea-3fcbec1192c3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a95ff4c0-5c7e-7062-4eea-3fcbec1192c3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
