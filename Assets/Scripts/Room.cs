@@ -20,7 +20,8 @@ public class Room : NetworkRoomManager
 
     public override void OnStartHost()
     {
-        Debug.Log("sdss");
+        //hey
+        
     }
 
     public override void OnStartClient()
